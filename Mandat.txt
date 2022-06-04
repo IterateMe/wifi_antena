@@ -1,0 +1,18 @@
+
+1- Vaches
+	Évaluer la position relative des récepteurs par rapport à la source (vaches)
+	Évaluer les effets dominants d'atténuation de signal (interférence, diffraction, réflexion)
+	
+2- Évaluer la porter théorique de l'antenne omnidirectionnelle 
+	-Évaluer la distance de l'antenne quart d'onde pour optimiser le gain de l'antenne
+		Théorique , comparé à une simulation éléctromagnétique basée sur la méthode des différences finies (temporel)
+	-Tracer le diagramme de rayonnement de l'antenne (en fonction de 2 angles parallèle et perpendiculaire)
+	-Mesurer le gain avec la canetenne versus dipole du argon
+	-Calcul rapide (théorique slm) pour voir si les nouvelles dimensions convient (gain + porté)
+3-Évaluer la tranmission dans l'érablière (végéation qui bloque (eau également)), évaluer de 0 à porté max et de porté max à 1km si porté max <1km
+
+4- Vérifier comment la couche mac devrait foncrtioner (caractéristiques) pour qu'il n'y aie pas de congestion
+5- Sur quelle autre propriété  des ondes electromagnetiques pourrait-on jouer pour obtenir
+une bonne precision sur la position ? Est-ce que le protocole WiFi s'y pr^ete
+6- topologie idéale pour la ferme
+7-Réseaux mieux adapté que le wifi (bluethoot x ,zigbee ? , UWB x ,
