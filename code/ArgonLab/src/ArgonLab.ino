@@ -16,9 +16,12 @@ void setup() {
 void wifi_scan_callback(WiFiAccessPoint* wap, void* data)
 {
     WiFiAccessPoint& ap = *wap;
-    Serial.printlnf("ssid=%s security=%d channel=%d rssi=%d", ap.ssid , (int)ap.security, (int)ap.channel, ap.rssi);
+    if(ap.channel == 11 && ap.ssid[0] == 'e') //university test
+      Serial.printlnf("ssid=%s security=%d channel=%d rssi=%d", ap.ssid , (int)ap.security, (int)ap.channel, ap.rssi);
     
 }
+
+
 
 void loop()
 {
